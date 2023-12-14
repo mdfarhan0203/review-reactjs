@@ -5,9 +5,112 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #c1beff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main_container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/* Review Component */
+
+img {
+  height: 7rem;
+  width: 8rem;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+
+}
+
+.review {
+  height: 27rem;
+  width: 27rem;
+  padding: 1rem;
+  background-color: #f8fafc;
+  box-shadow: 1px 1px 12px 12px rgba(40, 87, 173, 0.2);
+  border-radius: 5px;
+}
+
+.image {
+  position: relative;
+}
+
+.double-qoute {
+  position: absolute;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #645cff;
+  left: 9rem;
+  border-radius: 50%;
+  color: #ffffff;
+
+
+
+}
+
+.name {
+  font-size: 30px;
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.job {
+  margin-top: -2rem;
+  color: #645cff;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 16px;
+  color: #475569;
+  font-weight: 400;
+}
+
+/* Footer */
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.pre,
+.next {
+  border: none;
+  background-color: #f8fafc;
+  color: #3c3799;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.btn-surprise {
+  background-color: #c1beff;
+  height: 2rem;
+  width: 10rem;
+  border: none;
+  color: #342af0;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.btn-surprise:hover {
+  background-color: #645cff;
+  color: white;
 }
