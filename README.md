@@ -15,7 +15,6 @@
 <ul>
   <li>HTML</li>
   <li>CSS</li>
-  <li>BOOTSTRAP</li>
    <li>REACTJS</li>
 </ul>
 
